@@ -8,6 +8,8 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 
+// This is a model class
+
 @Entity
 @Table(name="DoctorTable")
 public class Doctor {
